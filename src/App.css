@@ -1,0 +1,55 @@
+form {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.top {
+    margin-top: 5rem;
+}
+
+form div {
+    margin: 1rem 0;
+}
+
+form label {
+    font-size: 1.3rem;
+}
+
+form input {
+    border-radius: .3rem;
+    border: none;
+    background-color: lightgray;
+    padding: .3rem;
+}
+
+form button {
+    background-color: white;
+    border-radius: .3rem;
+    color: black;
+    padding: .4rem;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.to_do_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.to_do_form p {
+    font-size: 1.2rem;
+}
+
+.to_do_form p, .to_do_form input, .to_do_form button {
+    margin-right: 1rem;
+}
+
+.to_do_form button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: .4rem;
+    width: 4rem;
+    cursor: pointer;
+}
